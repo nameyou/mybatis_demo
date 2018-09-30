@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties">
+    </properties>
+    <!--配置别名-->
+    <typeAliases>
+        <package name="com.lee.demo.bean"/>
+    </typeAliases>
+
+    <!--默认的环境 ID（比如:default="development"）。-->
+    <environments default="development">
+        <environment id="development">
+            <!--使用jdbc的事务-->
+            <transactionManager type="JDBC"/>
+            <!--数据源的配置（比如:type="POOLED"）。 连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--使用相对路径-->
+        <mapper resource="com/lee/demo/mapper/UserMapper.xml"/>
+        <mapper resource="com/lee/demo/mapper/RoleMapper.xml"/>
+        <!--使用绝对路径-->
+        <!--<mapper url="F:\\Project\Lee\mybatis\mybatis_day02_crud\src\main\resources\com\lee\demo\mapper\UserMapper.xml"/>-->
+        <!--使用接口的全限定名 使用mybatis注解方式-->
+        <!--<mapper class="com.lee.demo.mapper.UserMapper"/>-->
+    </mappers>
+</configuration>

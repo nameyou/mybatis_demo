@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lee.demo.mapper.UserMapper">
+    <!--查询所有用户-->
+    <select id="findAll" resultType="com.lee.demo.bean.User">
+        SELECT *,user_name as username FROM user
+    </select>
+
+    <insert id="saveUser" parameterType="com.lee.demo.bean.User">
+        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+            <!-- 返回插入数据的主键id -->
+            select last_insert_id();
+        </selectKey>
+        INSERT INTO user (user_name,birthday,sex,address) VALUES (#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <update id="updateUser" parameterType="com.lee.demo.bean.User">
+        UPDATE user SET user_name=#{username},birthday=#{birthday},sex=#{sex},address=#{address} WHERE id =#{id}
+    </update>
+
+    <select id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id=#{userId}
+    </select>
+
+    <select id="findOne" parameterType="Integer" resultType="UseR">
+        SELECT * FROM user WHERE id =#{userId}
+    </select>
+
+    <select id="findUserByUsername" parameterType="java.lang.String" resultType="com.lee.demo.bean.User">
+        <!--  SELECT *,user_name as username from user WHERE user_name LIKE concat('%',#{username},'%')-->
+        SELECT *,user_name as username from user WHERE user_name LIKE #{username}
+    </select>
+    <!--查询总记录数-->
+    <select id="findTotal" resultType="integer">
+        select COUNT(*) FROM user ;
+    </select>
+
+    <!--包装对象-->
+    <select id="getUserByQueryVo" parameterType="QueryVO" resultType="com.lee.demo.bean.User">
+        SELECT * ,user_name as username FROM user WHERE user_name LIKE concat('%',#{user.username},'%')
+    </select>
+
+</mapper>

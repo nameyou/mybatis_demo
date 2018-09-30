@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lee.demo.mapper.UserMapper">
+    <!--查询所有用户-->
+    <select id="findAll" resultType="com.lee.demo.bean.User">
+        SELECT *,user_name as username FROM user
+    </select>
+
+    <insert id="saveUser" parameterType="com.lee.demo.bean.User">
+        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+            <!-- 返回插入数据的主键id -->
+            select last_insert_id();
+        </selectKey>
+        INSERT INTO user (user_name,birthday,sex,address) VALUES (#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <update id="updateUser" parameterType="com.lee.demo.bean.User">
+        UPDATE user SET user_name=#{username},birthday=#{birthday},sex=#{sex},address=#{address} WHERE id =#{id}
+    </update>
+
+    <select id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id=#{userId}
+    </select>
+
+    <select id="findOne" parameterType="Integer" resultType="UseR">
+        SELECT * FROM user WHERE id =#{userId}
+    </select>
+
+    <select id="findUserByUsername" parameterType="java.lang.String" resultType="com.lee.demo.bean.User">
+        <!--  SELECT *,user_name as username from user WHERE user_name LIKE concat('%',#{username},'%')-->
+        SELECT *,user_name as username from user WHERE user_name LIKE #{username}
+    </select>
+    <!--查询总记录数-->
+    <select id="findTotal" resultType="integer">
+        select COUNT(*) FROM user ;
+    </select>
+
+    <!--
+        解决类名不匹配
+    -->
+    <resultMap id="where_map" type="user">
+        <id property="id" column="id"/>
+        <result property="username" column="user_name"/>
+    </resultMap>
+    <!--包装对象-->
+    <select id="getUserByQueryVo" parameterType="QueryVO" resultMap="where_map">
+        <!-- SELECT * ,user_name as username FROM user WHERE user_name LIKE concat('%',#{user.username},'%')-->
+        SELECT * FROM user WHERE user_name LIKE concat('%',#{user.username},'%')
+    </select>
+
+    <!--动态SQL
+    <select id="getUserByEXample" parameterType="user" resultType="user">
+        SELECT * FROM user WHERE 1=1
+        <if test="username !=null and username!='' ">
+            AND user_name LIKE concat('%',#{username},'%')
+        </if>
+        <if test="address !=null and address !='' ">
+            AND address LIKE concat('%',#{username},'%')
+        </if>
+    </select>
+    -->
+
+    <select id="getUserByEXample" parameterType="user" resultType="user">
+        SELECT *,user_name as username FROM user
+        <where>
+            <if test="username !=null and username!='' ">
+                AND user_name LIKE concat('%',#{username},'%')
+            </if>
+            <if test="address !=null and address !='' ">
+                AND address LIKE concat('%',#{address},'%')
+            </if>
+        </where>
+    </select>
+
+    <!-- 直接传递list集合
+    <select id="getUserByIds"  resultMap="where_map">
+        SELECT * FROM user WHERE
+        <where>
+            <foreach collection="list" item="id" open=" id in (" close=")" separator=",">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+    -->
+    <!--
+        使用包装对象传递list
+    -->
+    <select id="getUserByQueryVOIds" parameterType="queryVo" resultMap="where_map">
+        SELECT * FROM user
+        <where>
+            <if test="ids !=null and ids.size()>0">
+                <foreach collection="ids" item="id" open=" id in (" close=")" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+</mapper>
