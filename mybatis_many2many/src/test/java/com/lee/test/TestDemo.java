@@ -43,8 +43,8 @@ public class TestDemo {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         List<User> userl = mapper.findAll();
         for (User user : userl) {
-            System.out.println(user);
-            System.out.println(user.getRoles());
+            System.out.println("员工=" + user);
+            System.out.println("角色=" + user.getRoles());
         }
     }
 
