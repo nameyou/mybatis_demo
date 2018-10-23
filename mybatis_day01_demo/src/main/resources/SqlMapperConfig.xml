@@ -5,7 +5,7 @@
 <!--核心配置文件 必须要有的一个文件-->
 <configuration>
     <!--
-        default: 开发环境或者测试环境  可以随便
+        default: 开发环境或者测试环境  可以随便写
     -->
     <environments default="development">
         <environment id="development">
