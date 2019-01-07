@@ -2,162 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8be5ff7-87b5-4ff7-9bbd-faf943dd1201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bxg/demo/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bxg/demo/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/bxg/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bxg/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__com_ibm_icu_icu4j_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__dom4j_dom4j_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__jaxen_jaxen_1_1_beta_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__jdom_jdom_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_0_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__xalan_xalan_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/libraries/Maven__xom_xom_1_0b3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/SqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/conf/Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/conf/Mapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/io/Resources.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/DefaultSqlSession$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/DefaultSqlSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/DefaultSqlSessionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/ProxMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/SqlSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/SqlSessionFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/sqlsession/SqlSessionFactoryBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/util/DataSourceUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/util/Executor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/classes/com/lee/demo/mybatis/util/XMLConfigBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_customizing/target/test-classes/com/lee/demo/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/target/classes/SqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/target/classes/com/lee/demo/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/target/classes/com/lee/demo/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/target/classes/com/lee/demo/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_demo/target/test-classes/com/lee/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/classes/SqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/classes/com/lee/demo/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/classes/com/lee/demo/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/classes/com/lee/demo/dao/impl/UserImplDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/classes/com/lee/demo/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day01_impl/target/test-classes/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/bean/QueryVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/test/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/test/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/com/lee/demo/test/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/propeties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/classes/sqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day02_crud/target/test-classes/com/lee/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/com/lee/demo/bean/QueryVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/com/lee/demo/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/com/lee/demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/com/lee/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/propeties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/classes/sqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_day03_sql/target/test-classes/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/src/main/java/com/lee/demo/io/dd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/bean/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/io/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/io/Server$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/io/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/mapper/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/com/lee/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/classes/sqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_many2many/target/test-classes/com/lee/test/TestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/dd/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/dd/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/bean/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/ss/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/ss/Server$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/com/lee/demo/ss/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/classes/sqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_one2many/target/test-classes/com/lee/test/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_many2many/src/test/java/com/lee/test/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_many2many/src/test/java/com/lee/test/TestDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -172,10 +18,11 @@
     <session id="1756288772">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -194,33 +41,20 @@
         <counts>
           <entry key="java" value="7" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="7" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bxg/test/UserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,6 +64,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -266,7 +101,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1914" />
+    <option name="width" value="1915" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -275,6 +110,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,129 +120,17 @@
               <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bxg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bxg" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bxg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bxg" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bxg" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540294127950" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../idea/mybatis-second" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546854126539" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_day02_crud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="database.main" />
@@ -465,6 +191,7 @@
       <updated>1540286572933</updated>
       <workItem from="1540286576303" duration="6068000" />
       <workItem from="1540455573165" duration="23000" />
+      <workItem from="1546854004637" duration="737000" />
     </task>
     <servers />
   </component>
@@ -501,12 +228,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6091000" />
+    <option name="totallyTimeSpent" value="6828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1997319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +247,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.24023154" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -543,44 +270,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bxg/demo/FoobarPojo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxg/demo/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapperConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxg/demo/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bxg/demo/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxg/demo/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapperConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bxg/demo/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bxg/demo/mapper/UserMapper.xml" />
     <entry file="jar://D:/ThinkPad/Java/jdk8/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -588,16 +283,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bxg/test/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bxg/test/UserTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
   </component>
   <component name="masterDetails">
     <states>
