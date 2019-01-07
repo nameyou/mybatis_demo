@@ -1,7 +1,6 @@
 package com.lee.demo.dao;
 
 import com.lee.demo.domain.Account;
-import com.lee.demo.domain.User;
 import org.apache.ibatis.annotations.One;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
