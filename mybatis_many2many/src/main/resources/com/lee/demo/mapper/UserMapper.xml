@@ -6,7 +6,7 @@
 
     <resultMap id="user_map" type="com.lee.demo.bean.User">
         <id property="id" column="id"/>
-        <result property="username" column="username"/>
+        <result property="username" column="user_name"/>
         <result property="sex" column="sex"/>
         <result property="address" column="address"/>
         <result property="birthday" column="birthday"/>
