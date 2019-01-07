@@ -18,7 +18,7 @@
     </resultMap>
 
     <select id="findAll" resultMap="role_map">
-        SELECT r.*,u.id as user_id, u.user_name,u.address,u.sex,u.birthday FROM role r
+        SELECT r.*,u.id as user_id, u.user_name username,u.address,u.sex,u.birthday FROM role r
           LEFT JOIN user_role ur ON r.id=ur.r_id
           LEFT JOIN `user` u ON ur.u_id=u.id
     </select>
