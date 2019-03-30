@@ -1,9 +1,18 @@
+import java.util.ArrayList;
+import java.util.Calendar;
+
 public class Demo {
     public static void main(String[] args) {
         /*
             获取最值
          */
-        getValue(1, 2, 3, "大");
+//        getValue(1, 2, 3, "大");
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR,2020);
+
+
+
+
 
     }
 
@@ -18,5 +27,4 @@ public class Demo {
             System.out.println("输入字符不合法。。。");
         }
     }
-
 }

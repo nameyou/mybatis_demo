@@ -97,5 +97,15 @@
             </if>
         </where>
     </select>
+    <!--
+        <set>: 在进行更新数据的时候，会判断字段是否为空，if中会有最后一个分好，所以<set>标签可以自动去掉
+             <set>
+                <if test="username != null">username=#{username},</if>
+              </set>
+        <trim>
+             <trim prefix="WHERE" prefixOverrides="AND |OR ">
+              ...
+              </trim>
+    -->
 
 </mapper>

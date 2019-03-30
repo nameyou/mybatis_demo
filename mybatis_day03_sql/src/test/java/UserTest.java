@@ -171,15 +171,41 @@ public class UserTest {
     }
 
     public static void main(String[] args) {
-        int i = 9;
-        long l = 2;   // 小long是基本数据类型
-        System.out.println(l);
-        Long o = 3L;  // 大Long是引用数据类型
-        Byte b = 9;
-        byte y = 0;
 
-        Calendar instance = Calendar.getInstance();
-        System.out.println(instance.get(Calendar.DAY_OF_WEEK));
-        System.out.println(Calendar.DAY_OF_WEEK);
+
+        int a = -5;
+
+        int b = --a;
+
+        if (a % 2 == 0) {
+            a = ++b;
+        } else {
+            b = --a;
+        }
+        System.out.println(a);
+        System.out.println(b);
+
+        Integer[] arr = new Integer[10];
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 3;
+        double[] myList = {1.9, 2.9, 3.4, 3.5};
+        System.out.println("数组：" + myList.toString());
+        List list = new ArrayList();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        System.out.println("集合：" + list);
+
+        Map map = new HashMap();
+        map.put("a", 1);
+        map.put("b", 2);
+        map.put("c", 3);
+        System.out.println("map ：" + map);
+
+
+        System.out.println();
     }
+
 }
