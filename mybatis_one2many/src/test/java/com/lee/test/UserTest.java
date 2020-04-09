@@ -57,8 +57,8 @@ public class UserTest {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         List<User> accoutAndUser = mapper.findUserAndAccount();
         for (User user : accoutAndUser) {
-            System.out.println(user.getId() + ":" + user.getUsername() + ":" + user.getSex());
-            System.out.println(user.getAccounts());
+//            System.out.println(user.getId() + ":" + user.getUsername() + ":" + user.getSex());
+            System.out.println(user);
         }
     }
 }

@@ -12,9 +12,17 @@
         <!--一对一的关系映射-->
         <association property="user" javaType="com.lee.demo.bean.User">
             <id property="id" column="id"/>
-            <result property="username" column="user_name"/>
+            <result property="username" column="username"/>
             <result property="address" column="address"/>
-            <result property="sex" column="sex"/>
+            <result property="sex" column="sex" />
+            <!--
+            sex 属性是一个枚举，但这个属性在数据表中是以整型值进行存储的。所以向数据表写入或者查询数据时，要进行类型转换。
+            写入时，需要将 SexEnum 转成int。查询时，则需要把 int 转成 SexEnum。由于这两个是完全不同的类型，不能通过强转进
+            行转换，所以需要使用一个中间类进行转换，这个中间类就是 EnumOrdinalTypeHandler。这
+            个类会按照枚举顺序进行转换，比如在 SexEnum 中，MAN 的顺序是 0。存储时，
+            EnumOrdinalTypeHandler 会将 MAN 替换为 0。查询时，又会将 0 转换为 MAN。
+            -->
+            <result property="sexEnum" column="sexEnum" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
             <result property="birthday" column="birthday"/>
         </association>
     </resultMap>
@@ -24,13 +32,13 @@
         #既要查出账户的信息，也要查询出账户属于的用户信息，就要两张表关联查询
     -->
     <select id="findAccoutAndUser" resultMap="account_user">
-        SELECT * FROM account a LEFT JOIN `user` u ON a.user_id=u.id
+        SELECT * FROM t_account a LEFT JOIN `t_user` u ON a.user_id=u.id
     </select>
 
 
     <resultMap id="user_account" type="com.lee.demo.bean.User">
         <id property="id" column="id"/>
-        <result property="username" column="user_name"/>
+        <result property="username" column="username"/>
         <result property="address" column="address"/>
         <result property="sex" column="sex"/>
         <result property="birthday" column="birthday"/>
@@ -43,7 +51,7 @@
     </resultMap>
 
     <select id="findUserAndAccount" resultMap="user_account">
-        SELECT * FROM `user` u LEFT JOIN account a ON u.id=a.user_id
+        SELECT * FROM `t_user` u LEFT JOIN t_account a ON u.id=a.user_id
     </select>
 
 

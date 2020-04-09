@@ -10,6 +10,15 @@ public class User {
     private String sex;
     private String address;
     private Date birthday;
+    private SexEnum sexEnum;
+
+    public SexEnum getSexEnum() {
+        return sexEnum;
+    }
+
+    public void setSexEnum(SexEnum sexEnum) {
+        this.sexEnum = sexEnum;
+    }
 
     //一对多的关系
     private List<Account> accounts;
@@ -70,6 +79,7 @@ public class User {
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
                 ", birthday=" + birthday +
+                ", sexEnum=" + sexEnum +
                 ", accounts=" + accounts +
                 '}';
     }
